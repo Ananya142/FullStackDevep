@@ -1,10 +1,8 @@
-
-
 body {
-  font-family: Arial, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
   margin: 20px;
-  background-color: #f4f4f4;
+  background-color: lightblue;
 }
 
 button {
@@ -15,17 +13,19 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 button:first-of-type {
-  background-color: #4caf50;
+  background-color: green;
   color: white;
 }
 
 button:last-of-type {
-  background-color: #f44336;
-  color: white;
+  background-color: red;
+  color:white;
+}
