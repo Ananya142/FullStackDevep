@@ -1,1 +1,31 @@
 
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:first-of-type {
+  background-color: #4caf50;
+  color: white;
+}
+
+button:last-of-type {
+  background-color: #f44336;
+  color: white;
